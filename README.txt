@@ -9,7 +9,7 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-Current Maintainer: Nihar Dasari <dnihar@gatech.edu>, 
+Current Maintainers: Nihar Dasari <dnihar@gatech.edu>, Venkata Chaitanya Krishna Chekuri <vchekuri3@gatech.edu>
 
 This tool is used to generate the PID realisation of a Switched inductor DC-DC converter and for simulation in Simulink. 
 It can be used to generate a voltage regulator for a given bandwidth and phase margin or can automatically choose the highest 
