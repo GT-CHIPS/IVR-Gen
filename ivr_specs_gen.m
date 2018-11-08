@@ -52,7 +52,7 @@ clear
 addpath('./Efficiency_computation_for_buck_converter')
 % IVR
 %%% Importing target specs from csv file %%%%%
-spec_file_name='target_specs_ck.csv';
+spec_file_name='target_specs.csv';
 fileID=fopen(spec_file_name,'r');
 target_specs= textscan(fileID,'%s%f','Delimiter',',');
 fclose(fileID);
