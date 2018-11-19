@@ -17,7 +17,7 @@ bandwidth possible for a given phase margin.
 FINAL GOAL
 ----------
 Final IVR layout should be something along the lines of the following image. The Cadence SKILL codes and Innovus tcl files will be added to this project in future.
-
+![alt text](layout.jpg "Example final layout from IVR Generator")
 
 
 
