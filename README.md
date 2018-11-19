@@ -54,36 +54,37 @@ These are listed below
 Read the target specs from target_specs.csv
 Format of the target_specs.csv follows
 
-  Vin                   Input voltage in volts
-  V_ref                 Reference voltage in volts
-  ref_step_en           (1/0) Enables/Disables reference transient event
-  ref_step              Reference step in V to reach Vref (Used for reference transient simulations)
-  F_SW                  Power stage/DPWM switching Frequency in Hz
-  N                     Factor of F_SW by which ADC samples the voltage error. N!=1 for multisampling 
-  phm_d                 Target phase margin in degrees
-  Fc                    Target Unity gain or crossover frequency in Hz
-  L                     Output filter inductance 
-  C                     Output filter capacitance
-  ESR_L                 Effective series resistance of output filter inductor
-  ESR_C                 Effective series resistance of output filter capacitor
-  L_BW                  Inducatance for the pads
-  ESR_L_BW              Effective series resistance for PAD inductance
-  C_DECAP               Input decap at pads
-  ESR_C_DECAP           Effecrtive series resistance for input decaps at pads
-  I_Load                Load current
-  ADC_lower_range       Lower range of ADC
-  ADC_higher_range      +Z_ovrUpper range of ADC
-  ADC_reso_bits         ADC resolution in bits
-  DPWM_reso_bits        DPWM resolution in bits
-  load_step_en          (1/0) Enables/Disables load transient event
-  I_load_init           Initial output current in A before load transient event (Used for load transient simulations)
-  load_step_time        Time in s at which load step is introduced (Used for load transient simulations)
-  load_step             Load step value in A at load_step_time (Used for load transient simulations)
-  wk0_bits
-  fb_wk1_bits
-  fb_wk2_bits
-  fb_wk3_bits
-  comp_gain             Compensator gain
-  quiet                 (1/0) Disables/Enables detailed log statements
-  simu                  (1/0) Enables/Disables Simulink Simulation
-  auto                  (1/0) Automatically optimise for Bandwidth and phase/Use given bandwidth and phase margin targets
+| ﻿Vin              | Input voltage in volts                                                                            |
+|------------------|---------------------------------------------------------------------------------------------------|
+| V_ref            | Reference voltage in volts                                                                        |
+| ref_step_en      | (1/0) Enables/Disables reference transient event                                                  |
+| ref_step         | Reference step in V to reach Vref (Used for reference transient simulations)                      |
+| F_SW             | Power stage/DPWM switching Frequency in Hz                                                        |
+| N                | Factor of F_SW by which ADC samples the voltage error. N!=1 for multisampling                     |
+| phm_d            | Target phase margin in degrees                                                                    |
+| Fc               | Target Unity gain or crossover frequency in Hz                                                    |
+| L                | Output filter inductance                                                                          |
+| C                | Output filter capacitance                                                                         |
+| ESR_L            | Effective series resistance of output filter inductor                                             |
+| ESR_C            | Effective series resistance of output filter capacitor                                            |
+| L_BW             | Inducatance for the pads                                                                          |
+| ESR_L_BW         | Effective series resistance for PAD inductance                                                    |
+| C_DECAP          | Input decap at pads                                                                               |
+| ESR_C_DECAP      | Effecrtive series resistance for input decaps at pads                                             |
+| I_Load           | Load current                                                                                      |
+| ADC_lower_range  | Lower range of ADC                                                                                |
+| ADC_higher_range | #NAME?                                                                                            |
+| ADC_reso_bits    | ADC resolution in bits                                                                            |
+| DPWM_reso_bits   | DPWM resolution in bits                                                                           |
+| load_step_en     | (1/0) Enables/Disables load transient event                                                       |
+| I_load_init      | Initial output current in A before load transient event (Used for load transient simulations)     |
+| load_step_time   | Time in s at which load step is introduced (Used for load transient simulations)                  |
+| load_step        | Load step value in A at load_step_time (Used for load transient simulations)                      |
+| wk0_bits         | NA                                                                                                |
+| fb_wk1_bits      | NA                                                                                                |
+| fb_wk2_bits      | NA                                                                                                |
+| fb_wk3_bits      | Compensator gain                                                                                  |
+| comp_gain        | (1/0) Disables/Enables detailed log statements                                                    |
+| quiet            | (1/0) Enables/Disables Simulink Simulation                                                        |
+| simu             | (1/0) Automatically optimise for Bandwidth and phase/Use given bandwidth and phase margin targets |
+| auto             |                                                                                                   |
