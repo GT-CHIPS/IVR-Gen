@@ -15,6 +15,8 @@ This tool is used to generate the PID realisation of a Switched inductor DC-DC c
 It can be used to generate a voltage regulator for a given bandwidth and phase margin or can automatically choose the highest 
 bandwidth possible for a given phase margin.
 
+FINAL GOAL
+----------
 
 
 INSTALLATION AND RUNNING THE TOOL
