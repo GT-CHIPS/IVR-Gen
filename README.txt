@@ -8,7 +8,6 @@ CONTENTS OF THIS FILE
 
 INTRODUCTION
 ------------
-
 Current Maintainers: Nihar Dasari <dnihar@gatech.edu>, Venkata Chaitanya Krishna Chekuri <vchekuri3@gatech.edu>
 
 This tool is used to generate the PID realisation of a Switched inductor DC-DC converter and for simulation in Simulink. 
@@ -17,6 +16,9 @@ bandwidth possible for a given phase margin.
 
 FINAL GOAL
 ----------
+Final IVR layout should be something along the lines of the following image. The Cadence SKILL codes and Innovus tcl files will be added to this project in future.
+
+
 
 
 INSTALLATION AND RUNNING THE TOOL
