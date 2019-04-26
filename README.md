@@ -73,7 +73,7 @@ Format of the target_specs.csv follows
 | ESR_C_DECAP      | Effecrtive series resistance for input decaps at pads                                             |
 | I_Load           | Load current                                                                                      |
 | ADC_lower_range  | Lower range of ADC                                                                                |
-| ADC_higher_range | #NAME?                                                                                            |
+| ADC_higher_range | Upper Range of ADC                                                                                            |
 | ADC_reso_bits    | ADC resolution in bits                                                                            |
 | DPWM_reso_bits   | DPWM resolution in bits                                                                           |
 | load_step_en     | (1/0) Enables/Disables load transient event                                                       |
